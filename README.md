@@ -45,3 +45,7 @@ One of the key features of this project is the automated quality gate. A **Git P
 - `calculator.py`: Core logic and mathematical functions.
 - `test_calculator.py`: Test suite for all functions.
 - `.git/hooks/pre-push`: Automation script for push validation.
+
+## ✍️ Author
+
+- **PaveeM** - *Initial work* - [PaveeM](https://github.com/PaveeM)
