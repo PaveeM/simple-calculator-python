@@ -28,6 +28,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(power(2, 3), 8)
         self.assertEqual(power(5, 0), 1)
         self.assertEqual(power(10, -1), 0.1)
+        with self.assertRaises(ValueError):
+            power(0, -1)
+        with self.assertRaises(ValueError):
+            power(-2, 0.5)
 
     def test_square_root(self):
         self.assertEqual(square_root(16), 4)
